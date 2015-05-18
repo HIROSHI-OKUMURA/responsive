@@ -1,23 +1,55 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-	<mata charset="utf-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial=1.0">
 	<title>レスポンシブ・ウェブデザイン</title>
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
 </head>
 <body>
 	<div id="header">
-		<div id="footerNavLink"><a href="#">+</a></div>
+		<div id="footerNavLink"><a href="#footerNav">+</a></div>
+		<h1>Header</h1>
+
+		<div id="headerNav">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
 	</div><!-- header end -->
 	
 	<div id="container">
 		<div id="main">
+			<h2>Main</h2>
+			<img src="images/top_image/access_page_top.jpg" height="280" width="640">
+			<p>こんにちは！こんにちは！こんにちは！こんにちは！こんにちは！こんにちは！</p>
+			
+			<div style="width: 75%; margin: 0 auto;">
+				<div class="movie">
+				<iframe src="https://www.youtube.com/embed/33FLRNcbdeA" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
 		</div><!-- container/main end -->
 
 		<div id="sub">
+			<h2>Sub</h2>
+			<p>こんにちは！こんにちは！こんにちは！こんにちは！こんにちは！こんにちは！</p>
 		</div><!-- container/sub end -->
 	</div><!-- container end -->
 
 	<div id="footer">
+		<div id="footerNav">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+		<p>Footer</p>
 	</div><!-- footer end -->
 </body>
 </html>
